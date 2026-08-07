@@ -5,7 +5,7 @@ play_again = "yes"
 while play_again == "yes":
 
     # Generate a random number
-    secret_number = 3
+    secret_number =  random.randint(1, 10)
 
     # Ask the user to guess
     guess = int(input("\nI'm thinking of a number between 1 and 10. Can you guess it? "))
